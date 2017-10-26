@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  background-color: #f9fafc;
+}
+
+header{
+  display: inline-block;
+  width: 20%;
+  font-family: 'Open Sans', 800;
+}
+
+p{
+  font-family: 'Open Sans', regular;
+  color: #69696a;
+  text-align: left;
+  display: inline-block;
+  width:40%;
+  margin-left:auto;
+  border-left: 3px solid #69696a;
+  padding-left: 15px;
+
+}
+
+.hireus, #scrolldownbutton {
+  font-family: 'Open Sans', regular;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  padding:.5%;
+  text-align: center;
+}
+
+li{
+  font-family: 'Open Sans', regular;
+  list-style-type: none;
+  display:flex;
+  flex-direction:column;
+  margin-left: auto;
+  position: relative;
+  color: #69696a;
+}
+
+ul{
+padding:0;
+}
+
+h1{
+  font-family: 'Open Sans', regular;
+}
+
+#largecircle{
+display:none;
+}
+
+#mediumcircle{
+  display:none;
+}
+
+#smallcircle{
+  display:none;
+}
+
+@media only screen and (min-width: 760px){
+
+  #largecircle {
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    right: 100%;
+    bottom: 100%;
+    left: 50%;
+    top: 39%;
+    display: block;
+  }
+
+  #mediumcircle {
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+    position: absolute;
+    height: 153px;
+    width: 154px;
+    left: 225px;
+    top: 70px;
+    display: block;
+  }
+
+  #smallcircle {
+    border-radius: 58%;
+    background-color: rgba(207, 130, 213, 0.6);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 200px;
+    display: block;
+}
+
+  li{
+    display:inline-block;
+    flex-wrap:wrap;
+    margin-right:30px
+  }
+
+  #navbar{
+    font-family: 'Open Sans', regular;
+    display: inline-block;
+    list-style:none;
+    text-align:right;
+    width:78%;
+  }
+  #scrolldownbutton{
+    font-family: 'Open Sans', regular;
+    margin-top:10%;
+    display:inline-block;
+    padding:.5%;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom:10px;
+    flex-wrap:wrap;
+    text-align:center;
+    margin: 0 auto;
+    position: absolute;
+    right: 50%;
+    top:90%;
+  }
+
+  #boxofcircles {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    width: auto;
+    top: -164px;
+    left: 40px;
+}
